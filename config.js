@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'film exchange | summer 2021', // <title>
+  siteTitle: 'expired film photos exchange| summer 2021', // <title>
   manifestName: 'Multiverse',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-multiverse/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'analogue exchange',
+  heading: 'expired film photos exchange',
   subHeading: 'summer 2021',
   // social
   socialLinks:

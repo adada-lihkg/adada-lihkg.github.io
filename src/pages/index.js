@@ -65,6 +65,30 @@ const img_set = [
     desc: '📸🎞',
   },
   {
+    src: require('../assets/images/fulls/8-1.jpg'),
+    thumbnail: require('../assets/images/thumbs/8-1.jpg'),
+    title: 'Unknown',
+    desc: '-',
+  },
+  {
+    src: require('../assets/images/fulls/8-2.jpg'),
+    thumbnail: require('../assets/images/thumbs/8-2.jpg'),
+    title: 'Unknown',
+    desc: '-',
+  },
+  {
+    src: require('../assets/images/fulls/8-3.jpg'),
+    thumbnail: require('../assets/images/thumbs/8-3.jpg'),
+    title: 'Unknown',
+    desc: '-',
+  },
+  {
+    src: require('../assets/images/fulls/8-4.jpg'),
+    thumbnail: require('../assets/images/thumbs/8-4.jpg'),
+    title: 'Unknown',
+    desc: '-',
+  },
+  {
     src: require('../assets/images/fulls/9-1.jpg'),
     thumbnail: require('../assets/images/thumbs/9-1.jpg'),
     title: 'Fujifilm Provia 400X',
@@ -234,14 +258,14 @@ const img_set = [
   },
 ];
 
-let shuffled = img_set
-  .map((value) => ({ value, sort: Math.random() }))
-  .sort((a, b) => a.sort - b.sort)
-  .map(({ value }) => value)
+// let shuffled = img_set
+//   .map((value) => ({ value, sort: Math.random() }))
+//   .sort((a, b) => a.sort - b.sort)
+//   .map(({ value }) => value)
 
 const IndexPage = () => (
   <Layout>
-    <Gallery images={shuffled} />
+    <Gallery images={img_set} />
   </Layout>
 );
 
